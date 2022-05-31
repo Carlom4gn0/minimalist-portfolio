@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+p{
+    color:#fff;
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 30px;
+    align-items: center;
+}
+header .header-logo {
+    width:150px;
+    height:150px;
+    margin-right:50px;
+}
+header .menu ul {
+    display:inline;
+    margin-right: 20px;;
+}
+
+header .menu ul li{
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+header .menu ul li a {
+    text-decoration: none;
+    box-shadow: none;
+    color:#0A0B0F;
+}
+
+.about-me-sect {
+    background:#0A0B0F;
+    height:600px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    padding: 40px 40px;
+}
+.about-me-sect .row-1 div:nth-child(2){
+    width:50%;
+}
+
+.about-me-sect .row-1 div:nth-child(1) p{
+    font-size:24px;
+}
+.about-me-sect .row-2 div:nth-child(1) img {
+    width:50%;
+}
+.about-me-sect .row-2 div:nth-child(2) p {
+    font-size:24px;
+}
+
+.contact-footer {
+    background:#fff;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.social img{
+    width: 80px;
+    padding: 2px;
+}
+.social{
+    margin-left: 600px;
+}
+.contact-footer .text-contact{
+    writing-mode: vertical-lr;
+    font-size: 48px;
+    padding: 50px 30px;
+    color:#0A0B0F;
+}
+.email {
+    color:#0A0B0F;
+    font-family: 'DM Sans', sans-serif;
+    padding-right: 100px;
+    font-size: 28px;;
+}
+.email ul li {
+    list-style: none;
+}
+.instagram {
+    width: 80px;
+}
